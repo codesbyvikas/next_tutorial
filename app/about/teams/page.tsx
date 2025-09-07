@@ -1,10 +1,10 @@
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <h3 className="flex flex-col justify-center items-center text-[red]">My name is Aarushi</h3>
+    <div className="flex  justify-center items-center  min-h-screen text-[red]">
+      <h3 >My name is Aarushi</h3>
     </div>
   )
 }
 
-export default page
+export default Page
