@@ -1,6 +1,6 @@
  const About = () => {
     return(
-        <h3>This is About Page</h3>
+        <h3 className="font-roboto">This is About Page</h3>
     )
 }
 
