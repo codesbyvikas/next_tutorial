@@ -19,6 +19,12 @@ const Navbar = () => {
                 <li>
                     <Link href="/service">Service</Link>
                 </li>
+                <li>
+                    <Link href="/clientcomponent">Client Component</Link>
+                </li>
+                <li>
+                    <Link href="/servercomponent">Server Component</Link>
+                </li>
             </ul>
         </nav>
       </header>
