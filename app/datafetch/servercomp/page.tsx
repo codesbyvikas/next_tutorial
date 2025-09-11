@@ -1,9 +1,13 @@
-import { Condiment } from "next/font/google";
+import { resolve } from "path";
 
 const FetchDataServer = async(props:any) => {
 
     const searchParams =  await props.searchParams;
     const userName = searchParams.name.trim();
+
+    await new Promise((resolve) => {
+        setTimeout(resolve, 3000);
+        });
 
     if(!userName || userName==="") {
         

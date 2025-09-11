@@ -1,6 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
+import { resolve } from "path";
 import { useEffect, useState } from "react";
 
 
@@ -8,6 +9,8 @@ const FetchDataServer = () => {
 
     const searchParams = useSearchParams();
     const userName = searchParams.get("name");
+
+   
 
     if(!userName || userName==="") {
         
